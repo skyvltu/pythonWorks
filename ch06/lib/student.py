@@ -10,7 +10,7 @@ class student(Person):
         self.__school =school
         self.__major = major
 
-    def hello(self)
+    def hello(self):
         super().hello()
         print('학교 :', self.__school)
         print('전공 :', self.__major)
